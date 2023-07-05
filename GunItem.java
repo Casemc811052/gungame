@@ -18,6 +18,7 @@ public class GunItem extends JavaPlugin implements Listener {
     public void onEnable() {
         // プラグインが有効になったときの処理
         getServer().getPluginManager().registerEvents(this, this);
+        system.out.println("plugins is enable")
     }
 
     @EventHandler
